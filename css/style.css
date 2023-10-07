@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@media (max-width: 407px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }      
+    body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/pw/ADCreHdIYQdb0_cV0RD8nXmxmIWtC_8hKAHkovgDCKRigaF0IO2odu9dcvwGbVt62Sisb5Xzm2xcp351k7i90dZvP4Ho06Uj5aEyKCF9T32MAn6ObreabtD1HMxN2SX1wM4xhI0nkKhBBe7swtAgqzcihyxsm_hHQZNmM401JckmwOmH-gjU0Y8tFj7fRPrarueNwmBQA1wx3egSBzzXKxXqSV_JHnFpAO5gdAvDM2nmgCDpN_5dhCGMPmocEu6PRTAcux0L3QBB-nVwxjI8EYS6LVYlXjt-574jE2DNi8XDaMRSp3nZsXecg1xfMLCUY_F4ZPVOFBR6ktkRYwZm2kpH33ltWXn5ue0wAoQwZDoUuvHCIZr5ECljsVRR6omR3c7l6k2JoEVeHTioZwN9TuH09FpIfF7TtSy_QygTX9CMeUoMaAwsKGJmxXhFrFN0gTV3h5oxw9xSJepw8OKdladc5VuDjU4IV8NZDGvBvet0b2r_Im46eoA31DvjKOIslXNEK7biEHavhLlfmWg7TVG-6-St4Mxmk4TAWThOjj35N_N4JmsItM9JaIvrtBOLVPS3jboS6xJAwPSmkdOtJ9BBxpCwwqTsrXgEb6sLpT1dD8qDXtvhSOI28hgB5EzeiYA3mtnfhayP6v0HjJ9VBsgu_nmK6wKlTWtfbzwNbvab-LO6OuPQx4c3kRYWBrLdfgXmlMvZQgdlDdRuR4KX3w12Ej1R_a6W2n79JX_ZUBPvfVeXWEEa8JWheJtVpZEc_BF6xZE2C6ScnBa7-XGY6Wc71ah6eovBWLqEkSi5mqHcJ_m_lzSHwWdI9NCrb2DvupdXZBfhCqo0oh37qrN-rCTVtfXpEMmTkukJ47JZwzSrvlruBTUtOWgC8ACZDbob0h7KQMQfj0sWBOWcA0S4S8Ktc0YNZHutr9V3lYwIcDYmPIKYE407BuA=w281-h653-s-no?authuser=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .Container{
+        background: #c9c9c96d;
+        margin: 40px;
+        margin-top: 85px;
+        border-radius: 20px;
+        backdrop-filter: blur(0.7rem);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: fixed;
+
+    }
+    .Panel img{
+        width: 85px;
+        height: 85px;
+        border-radius: 100px;
+        border-style: solid;
+        background: #fff;
+        
+    }
+    .Panel{
+        padding: 16px;  
+        color: #ff0000;
+        text-align: end;
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Panel2{
+        padding: 20px;
+    }
+    .Panel3{
+        text-align: center;
+        padding: 10px;
+    }
+    .Panel3, h4{
+        text-align: center;
+        padding: 10px;
+    }
+    .button{
+        padding: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .button a{
+        color: aliceblue;
+        background: #ff0000;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .button a:hover{
+        background: #790707;
+    }
+}
